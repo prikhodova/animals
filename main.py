@@ -13,6 +13,13 @@ class Animal():
             print('It is a hen!', self.noize)
         elif self.noize == 'krya':
             print('It is a duck!', self.noize)
+        elif self.noize == 'moo':
+            print('It is a cow!', self.noize)
+        elif self.noize == 'bee':
+            print('It is a goat!', self.noize)
+        elif self.noize == 'mee':
+            print('It is a sheep!', self.noize)
+
 
 class Bird(Animal):
     def collect_eggs(self):
